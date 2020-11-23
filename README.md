@@ -12,3 +12,4 @@ Alternative resources:
 | `git stash list` | List all stashes by index. |
 | `git stash apply stash@{n}` | Apply stash at index `n` and keep it in the stash. |
 | `git stash pop stash@{n}` | Apply stash at index `n` and remove it from the stash. |
+| `git stash drop stash@{n}` | Drop stash at index `n`, remaining stashes' indices are shifted up by one. |
