@@ -19,6 +19,7 @@ To configure user for specific repo, remove the `--global` flag.
 | Command | Description |
 | - | - |
 | `git show COMMIT` | Show diff in commit. |
+| `git diff base_branch..feature_branch` | Show diff on `feature_branch` comparing to `target_branch`. |
 
 ## Stash
 
