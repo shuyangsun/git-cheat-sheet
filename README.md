@@ -4,6 +4,17 @@ Alternative resources:
 - [PDF version by Atlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet).
 - [PDF version by Githun](https://education.github.com/git-cheat-sheet-education.pdf)
 
+## User Configuration
+
+To configure global user:
+
+```bash
+$ git config --global user.name "your name"
+$ git config --global user.email "your@email.com"
+```
+
+To configure user for specific repo, remove the `--global` flag.
+
 ## Diff
 | Command | Description |
 | - | - |
