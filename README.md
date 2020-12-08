@@ -28,5 +28,6 @@ To configure user for specific repo, remove the `--global` flag.
 | `git stash push -m "message"` | Stash changes with name "message". |
 | `git stash list` | List all stashes by index. |
 | `git stash apply stash@{n}` | Apply stash at index `n` and keep it in the stash. |
+| `git stash show -p stash@{n}` | Show detailed diff of stash. |
 | `git stash pop stash@{n}` | Apply stash at index `n` and remove it from the stash. |
 | `git stash drop stash@{n}` | Drop stash at index `n`, remaining stashes' indices are shifted up by one. |
